@@ -1,0 +1,22 @@
+{
+  "name": "audiobooks-tool",
+  "version": "0.1.0",
+  "description": "Scripts for w3c audiobooks",
+  "scripts": {
+    "add-durations": "node durations.js",
+    "add-syncnarr": "node syncnarr.js",
+    "durations-example": "node durations.js -- --input example/durations/manifest-without-durations.json --output out",
+    "syncnarr-example": "node syncnarr.js -- --html example/syncnarr/sample.html --audio http://www.archive.org/download/blue_fairy_book_0707_librivox/bluefairybook_07_lang_64kb.mp3 --labels example/syncnarr/sample-audacity-labels.txt --output out --force",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "marisa.demeglio@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "download": "^8.0.0",
+    "fs-extra": "^9.0.0",
+    "jsdom": "^16.2.2",
+    "music-metadata": "^6.3.7",
+    "tmp": "^0.2.1"
+  }
+}
