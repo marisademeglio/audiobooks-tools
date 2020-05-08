@@ -30,7 +30,7 @@ Run the included example:
 Input:
 * HTML file (local)
 * Audio filepath (URL or local file)
-* Text file containing label markers exported from Audacity (see example/syncnarr/sample-audacity-labels.txt)
+* Text file containing label markers exported from Audacity (see [example](https://github.com/marisademeglio/audiobooks-tools/blob/master/example/syncnarr/sample-audacity-labels.txt))
 
 Output:
 * Sync narration JSON file
