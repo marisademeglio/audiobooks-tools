@@ -113,9 +113,7 @@ utils.writeOut(path.resolve(outputDir, path.basename(program.html)), dom.seriali
 // save sync narr file
 utils.writeOut(path.resolve(outputDir, syncnarrFilename), JSON.stringify(syncnarr), program.force);
 
-console.log(`Done!
-
-Now add this property to the corresponding reading order entry in the manifest:
+console.log(`Now add this property to the corresponding reading order entry in the manifest:
 
 "alternate": {
     "url": "${syncnarrFilename}",
