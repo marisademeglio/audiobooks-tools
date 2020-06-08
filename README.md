@@ -7,6 +7,27 @@ Utility scripts for audiobooks
 2. Make sure you have a reasonably recent version of Node JS installed
 3. `npm i`
 
+## make an LPF
+
+Make sure you have run permissions on this script (you just have to do this once):
+
+`chmod u+x lpfify.sh`
+
+Create the LPF:
+
+`./lpfify.sh bookdir`
+
+Creates `bookdir.lpf`.
+
+Unzip it to see if it worked how you expected:
+
+```
+mkdir tmp
+unzip bookdir.lpf -d tmp
+```
+
+Then look in `tmp`.
+
 ## calculate durations
 
 `npm run add-durations -- --input manifestFile --output outdir`
