@@ -4,8 +4,11 @@ Utility scripts for audiobooks
 ## get the code
 
 1. Clone this repository or download the zip.
+
+For all except the first (LPF) script:
+
 2. Make sure you have a reasonably recent version of Node JS installed
-3. `npm i`
+3. `npm i` 
 
 ## make an LPF
 
